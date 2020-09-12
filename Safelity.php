@@ -14,7 +14,6 @@ function no_stream($string) {
 
 function error_safely($message) {
     error_log(addslashes($message));
-    print "Error: ".htmlentities($message);
     exit();
 }
 
