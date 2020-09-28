@@ -1,6 +1,6 @@
 <?php
 /* Safelity is a PHP library that enables more secure coding
- * Written by Eldar Marcussen (@Wirehoul) - justanotherhacker.com
+ * Written by Eldar Marcussen (@Wireghoul) - justanotherhacker.com
  *
  * Version 0.1 - 2020-09-01
  */
