@@ -13,6 +13,19 @@ The idea was to write a library that allows developers to write secure code that
  * No need for input validation
  * Auditable
 
+PoC
+---------------------------------------
+Security claims should not be made lightly, a challenge to hack the library was made public on the internet. While the challenge is no longer hosted example scripts are provided in the `poc/` directory and you can try to hack them yourself:
+```bash
+cd poc/
+php -S 0:8000
+```
+The challenge files are now accessible via <http://localhost:8000/> in your browser.
+
+Usage of the library can also be audited by running `./audit.sh <directory>` from the command line.
+
+Inspiration
+---------------------------------------
 This library was inspired by a number of posts/opinions, but the following deserve a special mention:
   * Making wrong code look wrong - <https://www.joelonsoftware.com/2005/05/11/making-wrong-code-look-wrong/>
   * Anti if campaign - <https://francescocirillo.com/pages/anti-if-campaign>
