@@ -4,7 +4,7 @@ Secure programming library for PHP, written as a proof of concept by Eldar "Wire
 
 Concept
 ---------------------------------------
-The idea was to write a library that allows developers to write secure code that is reasonably similar to how they would write code otherwise whilst ensuring that the code only executes the intended functionality without the need for input validation or encoding of special characters. In order to ensure that this could be done some limitations were introduced. The following requirements/objectives were set:
+The idea was to write a library that allows developers to write secure code in a way that is similar to how they would write code otherwise. This library ensures that the code only executes the intended functionality without the need for input validation or encoding of special characters. In order to achieve this, some limitations were introduced. The following requirements/objectives were set:
 
  * PHP
  * Linux
